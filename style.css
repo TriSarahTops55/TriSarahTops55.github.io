@@ -119,17 +119,35 @@ nav a {
 
 
 
-/*******************************Footer Text*******************************/
+/*******************************Footer*******************************/
 .footer-wrapper {
 	background: #bcf4f5;
-	display: flex;
 	height: 125px;
 	width: 100%;
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
 .footer-wrapper img {
 	height: 50px;
 	width: 50px;
 }
+.bottomText {
+	display: flex;
+}
+.footerItem {
+	display: flex;
+	padding-left: 100px;
+
+}
+.footerItem a {
+	text-decoration: none;
+	color: #25292d;
+	display: flex;
+}
+.footerItem a:hover {
+	color: #ce6d7c;
+  }
