@@ -9,13 +9,14 @@ body, html {
 
 /*******************************Header*******************************/
 .header-wrapper{
-	height:25%;
+	height:16%;
 	background-color: #C0C5C1;
-	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 .header {
 	position: fixed;
-
 	margin-top: 2%;
 	margin-left: 20%;
 }
@@ -32,7 +33,7 @@ nav li {
 	display: inline-block;
 }
 nav a:hover {
-  color: #bcf4f5;
+  color: #ce6d7c;
 }
 nav a {
 	text-decoration: none;
@@ -42,16 +43,65 @@ nav a {
 
 
 
-/*******************************Main Body*******************************/
+/*******************************Footer*******************************/
+.footer-wrapper {
+	background: #bcf4f5;
+	height: 125px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.footer-wrapper img {
+	height: 50px;
+	width: 50px;
+}
+.bottomText {
+	display: flex;
+}
+.footerItem {
+	display: flex;
+	padding-left: 100px;
+
+}
+.footerItem a {
+	text-decoration: none;
+	color: #25292d;
+	display: flex;
+}
+.footerItem a:hover {
+	color: #ce6d7c;
+  }
+
+
+
+
+
+/*******************************Used on Multiple Pages*******************************/
+  .title {
+	margin-left: 25%;
+	width: 50%;
+	font-size: 25px;
+	padding-top: 200px;
+}	
+
+
+
+
+
+
+/*******************************Index*******************************/
 .body-wrapper {
 	display: flex;
+	margin-left: 17%;
+	margin-right: 20%;
 }
 
 
-
-/*******************************Self Image*******************************/
 .leftImg {
-	margin-left: 17%;
 	flex: 1;
 }
 .leftImg img {
@@ -61,12 +111,8 @@ nav a {
 }
 
 
-
-
-/*******************************Top Right Text*******************************/
 .rightText {
 	margin-left: 5%;
-	margin-right: 30%;
 }
 .circles {
 	display: flex;
@@ -114,40 +160,144 @@ nav a {
 	font-size: 20px;
 	font-weight: normal;
 }
+  
 
 
 
 
-
-/*******************************Footer*******************************/
-.footer-wrapper {
-	background: #bcf4f5;
-	height: 125px;
-	width: 100%;
-	position: fixed;
-	left: 0;
-	bottom: 0;
+/*******************************Imprint*******************************/
+.imprintbody-wrapper {
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
+	margin-left: 35%;
+	margin-right: 20%;
 }
-.footer-wrapper img {
+.mainImprint {
+	width: 65%;
+}
+.mainImprint img{
 	height: 50px;
 	width: 50px;
 }
-.bottomText {
+.mainImprint h1{
+	padding-bottom: 40px;
+}
+
+
+
+
+
+/*******************************Work*******************************/
+
+
+.workbody-wrapper {
+	margin-left: 17%;
+	margin-right: 20%;
+	padding-bottom: 10%;
 	display: flex;
 }
-.footerItem {
-	display: flex;
-	padding-left: 100px;
+
+.column1 {
+	width: 30%;
+	flex: 1;
 
 }
-.footerItem a {
-	text-decoration: none;
-	color: #25292d;
+.job {
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.circle {
+	flex: 1;
+}
+
+
+.column2 {
+	width: 20%;
+	margin-left: 50px;
+	border-left: solid;
+	border-width: 2px;
+	border-color: #25292d;
+
+}
+.column2 h2 {
+	margin-left: 15%;
+}
+.column2 li {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+/*******************************Achievements*******************************/
+.achbody-wrapper{
+	margin-left: 30%;
+	margin-right: 20%;
+	padding-bottom: 10%;
 	display: flex;
 }
-.footerItem a:hover {
-	color: #ce6d7c;
-  }
+.section{
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.ksuimage img{
+	width: 300px;
+	height: 300px;
+}
+.achtext {
+	margin-left: 20%;
+	font-size: 22px;
+	line-height: 35px;
+}
+
+
+
+
+
+
+/*******************************Contact*******************************/
+.contactbody-wrapper {
+	margin-left: 30%;
+	margin-right: 20%;
+	padding-bottom: 10%;
+}
+label {
+	display: block;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+input, textarea {
+	width: 439px;
+	height: 30px;
+	background: #b9d8c2;
+	border: 1px solid #25292d;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: .9em;
+	color: #25292d;
+}
+textarea {
+	height: 213px;
+
+}
+input:focus, textarea:focus {
+	border: 1px solid #61896d;
+}
+#submit {
+	width: 127px;
+	height: 38px;
+	background: #f2aeb8;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5%;
+	font-size: 15px;
+	border: 1px solid #ce6d7c;
+}
+#submit:hover {
+	opacity: .9;
+}
