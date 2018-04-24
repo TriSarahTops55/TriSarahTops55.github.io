@@ -304,6 +304,5 @@ input:focus, textarea:focus {
 	width: 400px;
 	height: 400px;
 	transform: rotate(90deg);
-
 	margin-left: 15%;
 }
