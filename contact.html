@@ -2,7 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sarah's Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>Contact Me</title>
 
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -37,55 +39,60 @@
         <h1>Get in Touch</h1>
     </div>
 
-    <div class="contactbody-wrapper">
-        <form method="post" action="contact.php">
+
+    <form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+        <input name="username" value="sarahah123" type="hidden">
+        <input name="reqd" value="0" type="hidden">
+        <input name="url" value="https://trisarahtops55.github.io/contactsuccess.html" type="hidden">
+
+
+        <div class="contactbody-wrapper">
             <label>Name</label>
-            <input name="name" placeholder="Your Name">
+            <input name="name" type="Your Name">
 
             <label>Email</label>
-            <input name="email" placeholder="Your Email">
+            <input name="email" type="Your Email">
 
             <label>Message</label>
-            <textarea name="message" placeholder="Your Message"></textarea>
+            <textarea name="message" type="Your Message"></textarea>
 
-            <label>*What is 2+2? (Anti-spam)</label>
-            <input name="human" placeholder="Type Here">
+            <br>
 
             <input id="submit" name="submit" type="submit" value="Submit">
-        </form>
-    </div>
+
+        </div>
 
 
 
-    <div class="footer-wrapper">
-        <div class="bottomText">
-            <div class="footerItem">
-                <a href="mailto:shansber55@gmail.com?Subject=Hello%20again">
-                    <img src="images/email.svg" alt="email" title="Email me!">
-                    <p>&nbsp;shansber55@gmail.com</p>
-                </a>
-            </div>
+        <div class="footer-wrapper">
+            <div class="bottomText">
+                <div class="footerItem">
+                    <a href="mailto:shansber55@gmail.com?Subject=Hello%20again">
+                        <img src="images/email.svg" alt="email" title="Email me!">
+                        <p>&nbsp;shansber55@gmail.com</p>
+                    </a>
+                </div>
 
-            <div class="footerItem">
-                <a href="https://github.com/TriSarahTops55">
-                    <img src="images/web.svg" alt="web" title="Check out my github!">
-                    <p>&nbsp;My Github</p>
-                </a>
-            </div>
+                <div class="footerItem">
+                    <a href="https://github.com/TriSarahTops55">
+                        <img src="images/web.svg" alt="web" title="Check out my github!">
+                        <p>&nbsp;My Github</p>
+                    </a>
+                </div>
 
-            <div class="footerItem">
-                <a href="https://trisarahtops55.github.io/imprint.html">
-                    <img src="images/highFive.svg" alt="highFive" title="Thanks Page">
-                    <p>&nbsp;Imprint Page</p>
-                </a>
-            </div>
+                <div class="footerItem">
+                    <a href="https://trisarahtops55.github.io/imprint.html">
+                        <img src="images/highFive.svg" alt="highFive" title="Thanks Page">
+                        <p>&nbsp;Imprint Page</p>
+                    </a>
+                </div>
 
-            <div class="footerItem">
-                <img src="images/copyright.svg" alt="copyright" title="Copyright">
-                <p>&nbsp;&copy; 2018 by Sarah Hansberry</p>
+                <div class="footerItem">
+                    <img src="images/copyright.svg" alt="copyright" title="Copyright">
+                    <p>&nbsp;&copy; 2018 by Sarah Hansberry</p>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
