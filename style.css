@@ -120,19 +120,6 @@ nav a {
 .circles {
 	display: flex;
 }
-.purpleCircle {
-	height: 180px;
-	width: 180px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	text-align: center;
-	display: flex;
-	color: #25292d;
-	background: #b19cd9;
-	margin: 20px 35px;
-	font-size: 25px;
-}
 .blueCircle {
 	height: 180px;
 	width: 180px;
